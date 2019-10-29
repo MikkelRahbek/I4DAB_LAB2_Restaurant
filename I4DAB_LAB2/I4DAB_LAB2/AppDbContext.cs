@@ -30,7 +30,7 @@ namespace I4DAB_LAB2
             optionsBuilder.UseSqlServer(MikkelsCString);    // Husk at ændre din ConnectionString
         }
 
-        // Set Primary Keys
+        // Set Primary Key(s)
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Restaurant>()
