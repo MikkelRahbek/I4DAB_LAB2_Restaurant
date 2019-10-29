@@ -17,7 +17,7 @@ namespace I4DAB_LAB2
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
 
-            optionsBuilder.UseSqlServer(MikkelsCString);
+            optionsBuilder.UseSqlServer(MikkelsCString);    // Husk at ændre din ConnectionString
         }
     }
 }
