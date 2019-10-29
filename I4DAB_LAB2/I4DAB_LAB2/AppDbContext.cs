@@ -12,7 +12,7 @@ namespace I4DAB_LAB2
     {    //private DbSet<Door> doors { get; set; }
 
         string MikkelsCString = "Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=I4DAB_LAB2;Data Source=DESKTOP-9NFPK3F";
-        string MortensCString = "23";
+        string MortensCString = "Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=I4DAB_LAB2;DataSource=DESKTOP-CKBOQBP";
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
