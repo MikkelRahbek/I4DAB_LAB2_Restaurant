@@ -17,8 +17,7 @@ namespace I4DAB_LAB2
         private DbSet<Restaurant> Restaurants { get; set;}
         private DbSet<Review> Reviews {get; set;}
         private DbSet<Table> Tables {get; set;}
-        private DbSet<Salery> Saleries {get; set;}
-        
+
         // Connection strings
         string MikkelsCString = "Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=I4DAB_LAB2;Data Source=DESKTOP-9NFPK3F";
         string MortensCString = "Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=I4DAB_LAB2;DataSource=DESKTOP-CKBOQBP";
