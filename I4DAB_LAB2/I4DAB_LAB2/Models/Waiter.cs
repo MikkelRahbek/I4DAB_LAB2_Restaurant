@@ -1,7 +1,5 @@
 using System.Collections.Generic;
-using I4DAB_LAB2.Models;
-
-namespace I4DAB_LAB2
+namespace I4DAB_LAB2.Models
 {
     public class Waiter
     {
